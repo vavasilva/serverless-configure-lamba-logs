@@ -1,0 +1,37 @@
+service: example-service
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  stage: dev
+
+plugins:
+  - serverless-configure-lambda-logs
+
+custom:
+  logs:
+    format: json
+    applicationLevel: INFO
+    systemLevel: INFO
+
+functions:
+  hello:
+    handler: handler.hello
+    logs:
+      format: json
+      applicationLevel: DEBUG
+      systemLevel: DEBUG
+  
+  world:
+    handler: handler.world
+    logs:
+      format: text
+      # For text format, application and system log levels will be ignored
+  
+  custom:
+    handler: handler.custom
+    logs:
+      logGroup: /custom/log/group/path # Custom log group
