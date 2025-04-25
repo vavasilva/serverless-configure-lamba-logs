@@ -20,14 +20,6 @@ If you want to develop or test this plugin locally:
 npm install --save-dev /path/to/serverless-configure-lambda-logs
 ```
 
-## Publishing
-
-To publish this plugin to npm registry as a maintainer:
-
-```bash
-npm publish
-```
-
 ## Usage
 
 Add the plugin to your `serverless.yml` file:
