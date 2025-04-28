@@ -1,6 +1,6 @@
 {
   "name": "serverless-configure-lambda-logs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Serverless Framework plugin to configure Lambda logging settings",
   "main": "src/index.js",
   "scripts": {
