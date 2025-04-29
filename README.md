@@ -5,7 +5,11 @@ A Serverless Framework plugin (compatible with version 3.40.0 and earlier) to co
 ## Installation
 
 ```bash
+# NPM
 npm install --save-dev serverless-configure-lambda-logs
+
+# Or using the Serverless Framework plugin command
+serverless plugin install -n serverless-configure-lambda-logs
 ```
 
 ## Local Development
