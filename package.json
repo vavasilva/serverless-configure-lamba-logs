@@ -1,6 +1,6 @@
 {
   "name": "serverless-configure-lambda-logs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Serverless Framework plugin to configure Lambda logging settings",
   "main": "src/index.js",
   "scripts": {
@@ -20,6 +20,11 @@
     "node": ">=12.0.0"
   },
   "peerDependencies": {
-    "serverless": "3.x"
+    "serverless": "3.40.0"
+  },
+  ,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vavasilva/serverless-configure-lambda-logs"
   }
 }
