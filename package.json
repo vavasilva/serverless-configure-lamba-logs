@@ -22,7 +22,6 @@
   "peerDependencies": {
     "serverless": "3.40.0"
   },
-  ,
   "repository": {
     "type": "git",
     "url": "https://github.com/vavasilva/serverless-configure-lambda-logs"
