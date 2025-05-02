@@ -1,3 +1,8 @@
+/* Plugin serverless-configure-lambda-logs
+ * Copyright (c) 2024 vavasilva
+ * Licensed under the MIT License. See LICENSE file for details.
+ */
+
 'use strict';
 
 const ConfigureLambdaLogs = require('../lib/configureLambdaLogs');
