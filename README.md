@@ -83,3 +83,7 @@ functions:
 - DEBUG: Detailed information about the Lambda system
 - INFO: General information about the Lambda system
 - WARN: Warnings about the Lambda system
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
