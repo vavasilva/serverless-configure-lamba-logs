@@ -1,6 +1,6 @@
 {
   "name": "serverless-configure-lambda-logs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Serverless Framework plugin to configure Lambda logging settings",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "aws",
     "lambda",
     "logging",
-    "logs"
+    "logs",
+    "serverless-plugin-split-stacks"
   ],
   "author": "",
   "license": "MIT",

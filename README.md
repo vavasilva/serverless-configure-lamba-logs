@@ -68,6 +68,7 @@ functions:
 - Configurable log levels
 - Updates configurations via AWS SDK
 - Support for custom log groups
+- **NEW in 1.0.7**: Compatibility with serverless-plugin-split-stacks
 
 ## Log Levels
 
